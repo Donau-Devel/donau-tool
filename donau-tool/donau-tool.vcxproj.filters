@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Component.cpp">
+      <Filter>Components\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Other\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Frauenbach.cpp">
+      <Filter>Components\Frauenbach</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Components\Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPanel.cpp">
+      <Filter>Components\ControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemUpdateChecker.cpp">
+      <Filter>Components\SystemUpdateChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Components\About</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemInfo.cpp">
+      <Filter>Components\SystemInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{fe7b2e7a-bf28-44b5-98b4-2ecca6c14688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Component">
+      <UniqueIdentifier>{f005c9b6-8686-4e1c-a0e6-8b01f20841d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{37da9357-7d00-4c3e-8daf-357d0568c984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Console">
+      <UniqueIdentifier>{c0dba747-486a-440b-87a3-d58f646fa825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Frauenbach">
+      <UniqueIdentifier>{ebb947e3-f0b0-4d6d-a6b9-883e93272a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\ControlPanel">
+      <UniqueIdentifier>{58472659-b3f5-4e7a-8d3d-12ee8a5e77f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Machine">
+      <UniqueIdentifier>{cee594d6-b5d4-42e7-b833-a2efaacf454b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\SystemUpdateChecker">
+      <UniqueIdentifier>{beeaf98b-85eb-41b8-b183-8e824ca42581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\About">
+      <UniqueIdentifier>{4a3943c7-bea7-4403-a811-9c0697362d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\BoxMake">
+      <UniqueIdentifier>{dd6c0d9b-5505-4c11-9e74-bbd3b33da572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\SystemInfo">
+      <UniqueIdentifier>{619686f3-e472-44f6-b4ad-d80652f35188}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Components\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Other\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Frauenbach.h">
+      <Filter>Components\Frauenbach</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>Components\Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPanel.h">
+      <Filter>Components\ControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemUpdateChecker.h">
+      <Filter>Components\SystemUpdateChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="donau-XMLParseDX.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="EqualsFileInterpreter.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Components\About</Filter>
+    </ClInclude>
+    <ClInclude Include="donau-BoxMake.h">
+      <Filter>Other\BoxMake</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInfo.h">
+      <Filter>Components\SystemInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
